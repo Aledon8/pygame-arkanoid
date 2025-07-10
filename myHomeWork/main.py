@@ -5,7 +5,13 @@ import sys
 
 # Setup (unchanged)
 pygame.init()
-pygame.mixer.init()
+try:
+    pygame.mixer.init()
+except pygame.error as e:
+    print("Sound initialization failed:", e)
+    mixer_working = False
+else:
+    mixer_working = True
 clock = pygame.time.Clock()
 screen_width, screen_height = 800, 600
 screen = pygame.display.set_mode((screen_width, screen_height))
