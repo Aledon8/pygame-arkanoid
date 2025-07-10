@@ -19,7 +19,7 @@ The game ends when all lives are lost.
 
 - `←` / `→` — Move the paddle  
 - `Space` / `Enter` — Start the game  
-- `Mute Button` — Toggle sound
+- `M` — Toggle sound
 
 ## 📷 Screenshots
 
