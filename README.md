@@ -1,35 +1,36 @@
-# Arkanoid Game
+# 🎮 Arkanoid Game
 
-![image](screenshot.png)
+This is my personal project created as a homework assignment during my **internship at EPAM**.
 
-## Preparation
+## 📌 Description
 
-1. Do a Preflight check:
-    1. Python3
-    1. GIT
-1. Clone this git
-1. OSX & Linux: Run `sh install.sh` OR do the Manual Install:
-    1. Create new VENV: `python3 -m venv env`
-    1. Activate your VENV: `sh ./env/bin/activate`
-    1. Install deps: `pip3 install -r requirements.txt`
-1. Go to the working directory: `cd work`
-1. Run the app: `python3 main.py`
+A classic **Arkanoid-style arcade game** built from scratch as part of my learning journey.  
+The goal is to destroy all the bricks by bouncing a ball using a paddle.  
+The game ends when all lives are lost.
 
-## Phases Description:
+## ✅ Features
 
-To look for the additions, seek comments started with "!!!"
+- Core game mechanics: ball movement, paddle control, brick collisions.
+- Multiple levels with increasing difficulty.
+- **Mute Button** to toggle sound on/off.
+- Enhanced gameplay with more diverse and challenging level design.
 
-1. Open an empty window with PyGame (m)
-1. Add Paddle, that could be controlled by the Player
-1. Implement Ball and add it to the game scene
-1. Adding Bricks
-1. Add Win / Lose state
-1. Add scoring and lives (m)
-1. Bonuses
-1. Sounds (m)
-1. More bonuses
-1. Messages
-1. Add pixel explosions (and fireworks)
-1. Add Title Screen
+## 🕹️ Controls
 
-This project is my homework for my internship at Epam
+- `←` / `→` — Move the paddle  
+- `Space` / `Enter` — Start the game  
+- `Mute Button` — Toggle sound
+
+## 📷 Screenshots
+
+> *(Add your screenshots here)*  
+> Example:  
+> ![Gameplay Screenshot](screenshot.png)
+
+## 🚀 How to Run
+
+Instructions vary based on implementation:
+
+**Example (Python + Pygame):**
+```bash
+python main.py
