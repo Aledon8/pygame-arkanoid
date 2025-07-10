@@ -32,11 +32,4 @@ To look for the additions, seek comments started with "!!!"
 1. Add pixel explosions (and fireworks)
 1. Add Title Screen
 
-## What's next?
-
-1. Add `mute` button
-1. Add more levels
-1. Add `gameover` screen
-1. Add more powerups
-
-YESSS SIR
+This project is my homework for my internship at Epam
