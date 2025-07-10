@@ -23,7 +23,6 @@ The game ends when all lives are lost.
 
 ## 📷 Screenshots
 
-> *(Add your screenshots here)*  
 > Example:  
 > ![Gameplay Screenshot](screenshot.png)
 
